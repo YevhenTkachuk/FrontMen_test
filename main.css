@@ -1,4 +1,5 @@
 
+
 html {
     --font_roboto: roboto, sans-serif;
     --font-main: #FFFFFF;
@@ -24,11 +25,13 @@ body {
 }
 
 .gallery__wrapper {
-    width: 1371px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: calc(100% - 32px);
+
+
 }
 
 .card {
@@ -37,6 +40,7 @@ body {
     margin-bottom: 70px;
     display: flex;
     flex-direction: column;
+    flex: auto;
 }
 
 .card__image {
@@ -75,6 +79,7 @@ body {
 
     .card__info{
         font-size: 25px;
+        width: 278px;
     }
 }
 
