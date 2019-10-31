@@ -70,6 +70,7 @@ body {
 
     .card {
         flex-direction: column-reverse;
+        margin-bottom: 55px;
     }
 
     .card__image {
@@ -87,6 +88,10 @@ body {
         .gallery__wrapper {
             flex-direction: column;
             justify-content: flex-start;
+        }
+
+        .card {
+        margin-bottom: 60px;
         }
 
         .card__image {
